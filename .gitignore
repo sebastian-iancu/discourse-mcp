@@ -1,0 +1,15 @@
+# Discourse auth profiles contain API keys — never commit one, even "just for a moment".
+# The real profile lives outside the repo at ~/.config/discourse-openehr-org.profile.json.
+*.profile.json
+profile.json
+
+# Local environment files / secrets
+.env
+.env.*
+
+# Claude Code machine-local settings (permissions granted on this machine)
+.claude/settings.local.json
+
+# OS cruft
+.DS_Store
+Thumbs.db
